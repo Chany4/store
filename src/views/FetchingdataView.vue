@@ -2,11 +2,9 @@
   <div>
     <h1>This is FetchingData</h1>
     {{$store.state.aboutMe}}
-
-    <div v-for= "project" in $store.state.projects :key = "project.name">
+    <!-- <div v-for= "project" in $store.state.projects :key = "project.name"> -->
       <h1>{{project.name}}</h1>
     </div>
-  </div>
 </template>
 <script>
 export default {
