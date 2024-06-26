@@ -1,4 +1,4 @@
-<template lang="">
+<template>
   <div>
     <h1>This is FetchingData</h1>
     {{$store.state.aboutMe}}
@@ -25,6 +25,6 @@ export default {
   }
 }
 </script>
-<style lang="">
+<style>
 
 </style>
